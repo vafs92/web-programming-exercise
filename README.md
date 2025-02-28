@@ -4,7 +4,7 @@ This repository contains exercises and coursework related to web development, co
 
 ## 📁 Folder Structure
 
-### **1️⃣ Informatics Project Coursework** (`web-programming-exercise/management-project-coursework/ci4_pos`)
+### **1️⃣ Informatics Project Coursework** (`web-programming-exercise/informatics-project-coursework/Tugas_mvc`)
 This project focuses on developing a **university facility management system** to facilitate students in borrowing campus facilities and help staff manage reservations efficiently.
 
 #### **🔹 Key Aspects:**
@@ -16,7 +16,7 @@ This project focuses on developing a **university facility management system** t
   - Staff can approve or decline reservations.
   - Staff can add or remove facilities.
 
-### **2️⃣ Project Management Coursework** (`web-programming-exercise/informatics-project-coursework/Tugas_mvc`)
+### **2️⃣ Project Management Coursework** (`web-programming-exercise/management-project-coursework/ci4_pos`)
 This project involves developing a **Point of Sale (POS) system** tailored for Food & Beverage (F&B) businesses. The focus extends beyond just development to include project planning, financial feasibility, and implementation strategies.
 
 #### **🔹 Key Aspects:**
