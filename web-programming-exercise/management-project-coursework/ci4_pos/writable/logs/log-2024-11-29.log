@@ -1,0 +1,187 @@
+CRITICAL - 2024-11-29 17:29:18 --> Creation of dynamic property App\Controllers\Main::$session is deprecated
+in APPPATH\Controllers\Main.php on line 15.
+ 1 APPPATH\Controllers\Main.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dynamic property App\\Controllers\\Main::$session is deprecated', 'APPPATH\\Controllers\\Main.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Main->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-29 17:31:56 --> Creation of dynamic property App\Controllers\Main::$data is deprecated
+in APPPATH\Controllers\Main.php on line 27.
+ 1 APPPATH\Controllers\Main.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dynamic property App\\Controllers\\Main::$data is deprecated', 'APPPATH\\Controllers\\Main.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Main->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-29 17:31:59 --> Creation of dynamic property App\Controllers\Main::$data is deprecated
+in APPPATH\Controllers\Main.php on line 27.
+ 1 APPPATH\Controllers\Main.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dynamic property App\\Controllers\\Main::$data is deprecated', 'APPPATH\\Controllers\\Main.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Main->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-29 20:19:47 --> Invalid file: pages/rekapan/view.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/rekapan/view.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/rekapan/view', [], true)
+ 3 APPPATH\Controllers\Main.php(302): view('pages/rekapan/view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->rekapan()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-29 20:22:33 --> Invalid file: pages/rekapan/view.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/rekapan/view.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/rekapan/view', [], true)
+ 3 APPPATH\Controllers\Main.php(302): view('pages/rekapan/view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->rekapan()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-29 20:22:44 --> Invalid file: pages/rekapan/view.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/rekapan/view.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/rekapan/view', [], true)
+ 3 APPPATH\Controllers\Main.php(302): view('pages/rekapan/view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->rekapan()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-29 20:23:35 --> Invalid file: pages/rekapan/view.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/rekapan/view.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/rekapan/view', [], true)
+ 3 APPPATH\Controllers\Main.php(302): view('pages/rekapan/view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->rekapan()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-29 20:30:40 --> syntax error, unexpected identifier " ", expecting "," or ";"
+in APPPATH\Views\auth\login.php on line 4.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('auth/login', [], true)
+ 3 APPPATH\Controllers\Auth.php(43): view('auth/login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Auth->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-29 21:07:50 --> Undefined array key "foto_product"
+in APPPATH\Views\pages\products\list.php on line 46.
+ 1 APPPATH\Views\pages\products\list.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto_product"', 'APPPATH\\Views\\pages\\products\\list.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\products\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/products/list', [], true)
+ 5 APPPATH\Controllers\Main.php(136): view('pages/products/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->products()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-29 21:09:13 --> Undefined array key "foto_product"
+in APPPATH\Views\pages\products\list.php on line 46.
+ 1 APPPATH\Views\pages\products\list.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto_product"', 'APPPATH\\Views\\pages\\products\\list.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\products\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/products/list', [], true)
+ 5 APPPATH\Controllers\Main.php(136): view('pages/products/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->products()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-29 21:10:20 --> Undefined variable $products
+in APPPATH\Views\pages\products\detail.php on line 38.
+ 1 APPPATH\Views\pages\products\detail.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'APPPATH\\Views\\pages\\products\\detail.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\products\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/products/detail', [], true)
+ 5 APPPATH\Controllers\Main.php(262): view('pages/products/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->product_detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-29 21:11:40 --> Undefined variable $products
+in APPPATH\Views\pages\products\detail.php on line 38.
+ 1 APPPATH\Views\pages\products\detail.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'APPPATH\\Views\\pages\\products\\detail.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\products\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/products/detail', [], true)
+ 5 APPPATH\Controllers\Main.php(262): view('pages/products/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->product_detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-29 21:21:50 --> Undefined variable $products
+in APPPATH\Views\pages\users\list.php on line 38.
+ 1 APPPATH\Views\pages\users\list.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'APPPATH\\Views\\pages\\users\\list.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\users\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/users/list', [], true)
+ 5 APPPATH\Controllers\Main.php(46): view('pages/users/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->users()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-29 21:23:47 --> Undefined variable $products
+in APPPATH\Views\pages\users\list.php on line 38.
+ 1 APPPATH\Views\pages\users\list.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'APPPATH\\Views\\pages\\users\\list.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\users\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/users/list', [], true)
+ 5 APPPATH\Controllers\Main.php(46): view('pages/users/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->users()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-29 21:24:08 --> Undefined variable $products
+in APPPATH\Views\pages\products\detail.php on line 38.
+ 1 APPPATH\Views\pages\products\detail.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'APPPATH\\Views\\pages\\products\\detail.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\products\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/products/detail', [], true)
+ 5 APPPATH\Controllers\Main.php(262): view('pages/products/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->product_detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-29 21:25:07 --> Undefined variable $products
+in APPPATH\Views\pages\products\detail.php on line 38.
+ 1 APPPATH\Views\pages\products\detail.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'APPPATH\\Views\\pages\\products\\detail.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\products\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/products/detail', [], true)
+ 5 APPPATH\Controllers\Main.php(262): view('pages/products/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->product_detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-29 21:29:53 --> Undefined variable $products
+in APPPATH\Views\pages\users\list.php on line 38.
+ 1 APPPATH\Views\pages\users\list.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'APPPATH\\Views\\pages\\users\\list.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\users\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/users/list', [], true)
+ 5 APPPATH\Controllers\Main.php(46): view('pages/users/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->users()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-29 21:29:57 --> Undefined variable $products
+in APPPATH\Views\pages\users\list.php on line 38.
+ 1 APPPATH\Views\pages\users\list.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'APPPATH\\Views\\pages\\users\\list.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\users\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/users/list', [], true)
+ 5 APPPATH\Controllers\Main.php(46): view('pages/users/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->users()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-29 21:30:24 --> Undefined variable $products
+in APPPATH\Views\pages\users\list.php on line 38.
+ 1 APPPATH\Views\pages\users\list.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'APPPATH\\Views\\pages\\users\\list.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\users\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/users/list', [], true)
+ 5 APPPATH\Controllers\Main.php(46): view('pages/users/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->users()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
