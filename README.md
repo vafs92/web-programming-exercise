@@ -4,7 +4,7 @@ This repository contains exercises and coursework related to web development, co
 
 ## 📁 Folder Structure
 
-### **1️⃣ Informatics Project Coursework** (`web-programming-exercise/informatics-project-coursework`)
+### **1️⃣ Informatics Project Coursework** (`web-programming-exercise/web-programming-exercise/informatics-project-coursework`)
 This project focuses on developing a **university facility management system** to facilitate students in borrowing campus facilities and help staff manage reservations efficiently.
 
 #### **🔹 Key Aspects:**
